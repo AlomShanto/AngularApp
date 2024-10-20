@@ -3,7 +3,11 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
+<<<<<<< HEAD
     "AngularApp": {
+=======
+    "angularApp": {
+>>>>>>> 640d3fbedb46a419f302e4f4bc087d9257ed6057
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -69,10 +73,17 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
+<<<<<<< HEAD
               "buildTarget": "AngularApp:build:production"
             },
             "development": {
               "buildTarget": "AngularApp:build:development"
+=======
+              "buildTarget": "angularApp:build:production"
+            },
+            "development": {
+              "buildTarget": "angularApp:build:development"
+>>>>>>> 640d3fbedb46a419f302e4f4bc087d9257ed6057
             }
           },
           "defaultConfiguration": "development"
@@ -102,5 +113,11 @@
         }
       }
     }
+<<<<<<< HEAD
+=======
+  },
+  "cli": {
+    "analytics": false
+>>>>>>> 640d3fbedb46a419f302e4f4bc087d9257ed6057
   }
 }

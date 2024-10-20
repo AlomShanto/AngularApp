@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 640d3fbedb46a419f302e4f4bc087d9257ed6057
 # AngularApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.9.
@@ -25,3 +29,9 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+<<<<<<< HEAD
+=======
+=======
+# AngularApp
+>>>>>>> e0c1a5140160df9789415b16a0bb559fe4d30b9a
+>>>>>>> 640d3fbedb46a419f302e4f4bc087d9257ed6057
