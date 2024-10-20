@@ -1,1 +1,10 @@
-<p>auth works!</p>
+<div *ngIf = "hasAccount == false">
+    <sign-up></sign-up>
+    <div>Already have an account?</div>
+    <button (click) = "changeAccountStatus()">Login</button>
+</div>
+<div *ngIf = "hasAccount == true">
+  <login></login>
+  <div>Don't have any account?</div>
+  <button (click) = "changeAccountStatus()">Sign Up</button>
+</div>

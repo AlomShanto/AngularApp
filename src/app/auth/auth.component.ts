@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrl: './auth.component.css'
 })
 export class AuthComponent {
-  
+  hasAccount = true;
+
+  changeAccountStatus(){
+    this.hasAccount = !this.hasAccount;
+  }
 }
